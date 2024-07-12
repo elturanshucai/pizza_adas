@@ -1,0 +1,90 @@
+@media screen and (max-width:1280px) {
+    .hero-container .left {
+        margin-left: 0;
+        font-size: 2.5rem;
+    }
+
+    .about .about-inner,
+    .about .about-btns {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .hero-container {
+        flex-direction: column;
+    }
+
+    .left {
+        margin-top: 6rem;
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .hero-buttons {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .hero {
+        height: auto;
+        overflow: hidden;
+    }
+
+    .hero .photo {
+        width: 100%;
+        height: 100%;
+        padding: 5rem;
+    }
+
+    .hero .photo img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .about-btns {
+        flex-direction: column;
+    }
+
+    .about-btns a.learn,
+    .about-btns a.watch {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about h2,
+    .team h2,
+    .products h2,
+    .services h2,
+    .contact h2{
+        font-size: 4rem;
+    }
+
+    .products-top{
+        flex-direction: column;
+        align-items: start;
+        gap: 2rem;
+    }
+
+    .navs{
+        display: none;
+    }
+
+    .product{
+        padding: 2rem;
+    }
+    .socials{
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+}

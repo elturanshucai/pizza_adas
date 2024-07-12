@@ -1,0 +1,50 @@
+@import url('http://fontlar.info/index.php/ready/332-sofia');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Sofia';
+    src: url('../fonts/sofia-pro/Sofia\ Pro\ Light\ Az.otf');
+}
+
+@font-face {
+    font-family: 'Sofia-Light';
+    src: url('../fonts/sofia-pro/Sofia\ Pro\ ExtraLight\ Az.otf');
+}
+
+:root {
+    --green: #00543D;
+    --light-green: #006347;
+    --extra-light-green: #80a98d;
+    --cream: #FFF1D4;
+    --light-brown: #CC9964;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Sofia';
+    background-color: var(--cream);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    width: 95%;
+    max-width: 137.9rem;
+    margin: 0 auto;
+}
