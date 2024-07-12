@@ -69,6 +69,11 @@
     height: 100%;
 }
 
+.history h3{
+    font-size: 6rem;
+    color: var(--light-brown);
+}
+
 .history-content{
     display: flex;
     align-items: center;
@@ -76,6 +81,11 @@
     margin-top: 6rem;
     width: 100%;
     overflow-x: auto;
+    margin-bottom: 16rem;
+}
+
+main ::-webkit-scrollbar{
+    display: none;
 }
 
 .history-content .left{
@@ -87,7 +97,6 @@
 
 .history-content .right{
     flex: 2;
-    border-bottom: 1px solid var(--light-brown);
 }
 
 .history-content .right .top{
